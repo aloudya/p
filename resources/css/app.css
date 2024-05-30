@@ -1,0 +1,32 @@
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.formLogin h1 {
+    font-family: "Inter", sans-serif;
+}
+
+.formLogin .container {
+    width: -400px;
+}
+
+.formLogin .card {
+    box-shadow: 0 0 1px rgb(45, 66, 28);
+}
+.formLogin .card-header {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(192, 246, 192);
+}
+
+.formLogin .btn {
+    color: black;
+    padding: 10px 145px;
+    border-radius: 8px;
+    font-size: 18px;
+    background-color: rgb(192, 246, 192);
+}
